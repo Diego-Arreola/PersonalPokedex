@@ -1,0 +1,26 @@
+body{
+    font-family: 'pokemon-b-w', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+.pokedexEntry{
+    color: white;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 250px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+.pokedexEntry #pokemonSprite{
+    transform: scale(1.8);
+    margin-bottom: 10px;
+}

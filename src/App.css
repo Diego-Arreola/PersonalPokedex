@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #61dafb;
 }
 
 .App-logo {
@@ -35,4 +36,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'pokemon-b-w';
+  src: url('../public/pokemon-b-w.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
