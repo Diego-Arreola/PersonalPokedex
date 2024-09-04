@@ -39,6 +39,25 @@ body {
   top:1%;
 }
 
+.generations{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  gap: 10px;
+  padding: 10px;
+  /*border: 2px solid red;*/
+}
+
+.generations button{
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.5vw;
+  color: white;
+  cursor: pointer;
+}
+
 .pokedexdisplay{
   background-color: black;
   width: 300px;
