@@ -8,6 +8,8 @@ This project is a simple Pokedex application built with React. It fetches and di
 
 -Displays Pokémon sprite and name
 
+-Dedicated page for each pokemon (in development)
+
 ## Setup
 
 1. Clone the repository:
