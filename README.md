@@ -5,18 +5,19 @@ This project is a simple Pokedex application built with React. It fetches and di
 ## Features
 
 -Fetches Pokémon data from an external API
+
 -Displays Pokémon sprite and name
 
 ## Setup
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/pokedex-app.git
+    git clone https://github.com/Diego-Arreola/PersonalPokedex.git
     ```
 
 2. Open project directory:
     ```sh
-    cd AWS-API
+    cd PersonalPokedex
     ```
 
 3. Install dependencies:
