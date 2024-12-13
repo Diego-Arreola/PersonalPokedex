@@ -38,9 +38,8 @@ function App() {
         <button onClick={() => getPokemonList(107,386)}>Generation 4</button>
         <button onClick={() => getPokemonList(156,493)}>Generation 5</button>
         <button onClick={() => getPokemonList(72,649)}>Generation 6</button>
-        <button onClick={() => getPokemonList()}>Generation 7</button>
-        <button onClick={() => getPokemonList()}>Generation 8</button>
-        <button onClick={() => getPokemonList()}>Generation 9</button>
+        <button onClick={() => getPokemonList(88,721)}>Generation 7</button>
+        <button onClick={() => getPokemonList(96,809)}>Generation 8</button>
       </div>
       <div className="pokedexEntrys">
         {pokemon.map((pokemon, index) => {

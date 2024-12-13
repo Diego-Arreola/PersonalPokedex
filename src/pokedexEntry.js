@@ -7,7 +7,7 @@ export default function PokedexEntry({data}){
     useEffect(() => {
         fetch(data.url)
           .then(response => response.json())
-          .then(data => setSpriteUrl(data.sprites.versions['generation-v']['black-white'].animated.front_default));     
+          .then(data => setSpriteUrl(data.sprites.versions['generation-v']['black-white'].front_default));     
     }, [data.url]);
 
     return(
